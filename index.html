@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Vinay-Parit">
+    <meta name="description" content="Credit Card Landing Page">
+    <meta name="keywords" content="Shweta-Dabhole">
+    <link rel="icon" type="image/x-icon" href="./assets/Icons/cloud-add.svg">
+    
+    <title>Credit Card Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Popins CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- Tailwind CDN -->
+      <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    
+</head>
+
+<body class="bg-black overflow-x-hidden">
+    <!-- header  -->
+    <header class="bg-black" >
+        <div class="header max-width flex justify-between p-4 ">
+            <div class="logo">
+                <img class="h-8 lg:pl-30" src="./assets/Icons/Logo.svg" alt="logo">
+            </div>
+            <div class="nav hidden lg:block lg:pt-2">
+                <ul class="nav-links text-white flex gap-8">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#about">About us</a></li>
+                </ul>
+            </div>
+
+            <div class="btn-groups flex flex-row relative lg:pr-30">
+                <button class="btn-lang bg-black flex items-center pr-10">
+                    <span class="text-white  ">Eng</span>
+                    <img class="w-3 absolute left-9 top-4" src="./assets/Icons/downArrow.svg" alt="down arrow">
+                </button>
+                
+                    <button class="btn-1 " >
+                        <img class="imgg-1 absolute left-16  opacity-[0.6]" src="./assets/Icons/btn-pink-bg.svg" alt="btn pink backgroud">
+                        <span class="text-white ">Get Started</span>
+                    </div>
+                </button>
+            </div>
+
+        </div>
+    </header>
+
+     <main>
+        <section class="hero max-width ">
+            <div class="hero-container lg:pt-10 ">
+
+                <div class="hero-text flex flex-col  relative bg-black lg:pl-30">
+                    <h1 class="text-5xl px-4  leading-15 pt-4 text-white font-[Poppins]">
+                        Simplify All Transactions<br>in <span class="text-[#F637EC] font-bold">One Card</span>
+                    </h1>
+                    <p class="pt-2 text-xs text-white px-4 ">
+                        Hurry up and join now, with this you can manage your daily<br> finances easily and safely
+                    </p>
+                    <a href="#" class="btn">
+                        <div class="start flex pt-4 px-4">
+                            <img src="./assets/Icons/btn-pink-bg.svg" alt="btn pink backgroud">
+                            <span class="absolute left-6 top- text-white text-xs font-bold lg:pl-30" >GET STARTED</span>
+                            <img class="arrow pl-12" src="./assets/Icons/RightArrow.svg" alt="right arrow">
+
+                        </div>
+                    </a>
+                </div>
+
+                <div class="hero-stats pl-4 pt-5 text-white bg-black lg:pl-35 lg:flex lg:pt-10 lg:pl-8">
+                    <div class="items flex">
+                        <h3 class="text-4xl font-bold lg:text-2xl">42k<span class="text-[#F637EC]">+</span></h3>
+                        <p class="pl-2 lg:text-sm">Happy <br>Active User</p>
+                    </div>
+                    <div class="items flex pt-4 lg:pt-0 lg:pl-6">
+                        <h3 class="text-4xl font-bold lg:text-2xl">12k<span class="text-[#F637EC]">+</span></h3>
+                        <p class="pl-2 lg:text-sm">Years <br>Experience</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="hero-img relative">
+                <img class="credit-1 absolute -top-14 left-24 lg:-top-80 lg:h-150 lg:left-155" src="./assets/Photos/frontCards.png" alt="">
+                <img class="credit-2 absolute -top-35 left-24 lg:-top-80 lg:h-150 lg:left-120" src= "./assets/Photos/backCards.png" alt="">
+            </div>
+            
+        </section>
+
+         <section class="company-stats ">
+            <div class="container max-width flex flex-col lg:flex lg:mt-10 h-100 lg:h-30 relative top-100 bg-[#292929]">
+                <img class="w-40 lg:w-30 absolute top-15 left-10 lg:top-10 lg:left-50" src="./assets/Icons/Logo.svg" alt="Logo">
+                <img class="w-40 lg:w-30 absolute top-15 left-65 lg:top-10 lg:left-115" src="./assets/Icons/Logo.svg" alt="Logo">
+                <img class="w-40 lg:w-30 absolute top-45 lg:top-10 left-10 lg:left-175" src="./assets/Icons/Logo.svg" alt="Logo">
+                <img class="w-40 lg:w-30 absolute top-45 left-65 lg:top-10 lg:left-235" src="./assets/Icons/Logo.svg" alt="Logo">
+                <img class="w-40 lg:w-30 absolute top-70 left-40 lg:top-10 lg:left-295 " src="./assets/Icons/Logo.svg" alt="Logo">
+            </div>
+        </section>
+
+
+         <section class="features max-width">
+            <div class="container text-white pt-100 lg:flex lg:flex-col lg:mb-15">
+                <div class="text pt-15 pl-4 lg:flex lg:pl-50">
+                    <h2 class="text-4xl leading-16 font-[Poppins]">The best payment service <br class="hidden lg:block"> for <span class="font-bold text-[#F637EC]">your transactions</span>
+                    </h2>
+                    <p class="text-sm pt-8 lg:pt-10 lg:pl-40 lg:text-xs">
+                        The following are the services we provided to users. with the services we <br class="hidden lg:block"> maxmize it is hoped
+                        that users are satisfied with what we provided.
+                    </p>
+                </div>
+
+                <div class="container-box pt-12 flex flex-col lg:flex-row gap-8 justify-center lg:mt-8 items-center text-center">
+                    <div class="items items-1 border h-80 w-90 bg-[#272727] ">
+                        <img class="pl-22 py-10" src="./assets/Icons/dollar-circle.svg" alt="dollar-circle">
+                        <span class=" text-2xl font-[Poppins]">
+                            Free transactions fee
+                        </span>
+                    </div>
+                    <div class="items items-2 border h-80 w-90 mt-8 lg:mb-25 lg:mt-0 bg-[#535250]">
+                        <img class="pl-22 py-10" src="./assets/Icons/cloud-add.svg" alt="cloud-add">
+                        <span class=" text-2xl font-[Poppins]">
+                            Easy to access anytime and anywhere
+                        </span>
+                    </div>
+                    <div class="items items-3  border h-80 w-90 mt-8 lg:mt-0 mb-25 lg:mb-0 bg-[#272727]">
+                        <img class="pl-22 py-10 " src="./assets/Icons/lock.svg" alt="lock">
+                        <span class="text-center text-2xl font-[Poppins]">
+                            Guaranteed Safety
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cards-about">
+            <div class="container max-width bg-white flex flex-col justify-evenly items-center h-200">
+                <div class="text">
+                    <h2 class="text-5xl text-center leading-16 pt-10 font-[Poppins]">
+                        Unique and interesting<br><span class="font-bold text-[#DA32D4]">card choices</span>
+                    </h2>
+                    <p class="text-sm text-center pt-12 lg:pt-4 lg:text-xs">
+                        We provided card editing features, where users can edit unique cards <br> according to the wishes and
+                        preferences of the users themselves.
+                    </p>
+                </div>
+                <div class="img px-4  ">
+                    <img class="lg:h-150" src="./assets/Photos/VCards.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class="reviews max-width">
+            <div class="text text-white flex flex-col">
+                <h2 class="text-5xl text-center leading-16 pt-10 font-[Poppins]">
+                    Customers are satisfied with<br> <span class="text-[#DA32D4] font-bold">the features </span>we provided.
+                </h2>
+                <p class="text-center pt-6 lg:text-xs">
+                    With the various features that we provided. therefore many <br>customers like the features that we
+                    provided.
+                </p>
+            </div>
+
+            <div class="container lg:flex lg:flex-col lg:items-center lg: justify-center lg:relative">
+
+
+                <div class="items mt-15 ml-5 h-55 w-110  lg:h-45 lg:w-150 lg:absolute lg:top-1 lg:left-35 lg:text-xs border-zinc-100 border-2 bg-[#535250] items-center">
+                     <img class="pt-5 pl-4" src="./assets/Icons/5stars.svg" alt="5 Start">
+                   
+                    <p class="text-white py-5 px-4 ">
+                        Very good and recommended financial platform, the features are very satisfying, you all should
+                        try this platform!
+                    </p>
+                    <h5 class="text-white pl-4">
+                        Gabriel Putra<br><span>Jakatra, Indenosia</span>
+                    </h5>
+                </div>
+
+                <div class="items mt-6 ml-5 h-55 w-110 lg:h-45 lg:w-150 lg:absolute lg:top-10 lg:right-35 lg:text-xs border-zinc-100 border-2 bg-[#272727] items-center">
+                    <img class="pt-5 pl-4" src="./assets/Icons/4stars.svg" alt="4 Star">
+                    <p class="text-white py-5 pl-4">
+                        This is the best finance platform i've ever found. lots of features that definetly make me more
+                        satisfied!
+                    </p>
+                    <h5 class="text-white pl-4">
+                        Melvin Yoga<br><span>New York, America</span>
+                    </h5>
+                </div>
+
+                <div class="items mt-6 ml-5 h-60 w-110 lg:h-45 lg:text-sm lg:w-150 lg:absolute lg:left-35 lg:top-60 border-zinc-100 border-2 bg-[#272727] items-center">
+                    <img class="pt-5 pl-4" src="./assets/Icons/4stars.svg" alt="4 Star">
+                    <p class="text-white py-5 pl-4">
+                        This is the first time i have found a financial platform as good as this, with various features
+                        that really help me in managing my finances.
+                    </p>
+                    <h5 class="text-white pl-4">
+                        Ferhan Putra<br><span>Paris, French</span>
+                    </h5>
+                </div>
+
+                <div class="items mt-6 ml-5 h-55 w-110 lg:absolute lg:h-45 lg:text-sm lg:w-150 lg:top-60 lg:right-35 border-zinc-100 border-2 bg-[#272727] items-center">
+                    <img class="pt-5 pl-4" src="./assets/Icons/5stars.svg" alt="5 Start">
+                    <p class="text-white py-5 pl-4">
+                        The best financial platform i've ever found, here we can custom cards according to our wishes.
+                        I'm very satisfied!
+                    </p>
+                    <h5 class="text-white pl-4">
+                        Alex Georgio<br><span>Wangon, Indonesia</span>
+                    </h5>
+                </div>
+
+            </div>
+            <div class="pagination ">
+                <div class="round round-1"></div>
+                <div class="round round-2"></div>
+                <div class="round round-3"></div>
+                <div class="round round-4"></div>
+            </div>
+        </section>
+
+        <section class="banner max-width">
+        <div class="text text-white flex flex-col relative mt-25 lg:pl-30 ">
+            <img src="./assets/Photos/Rectangle 6773.png" alt="Rectangle" class="img img-1 h-150 w-full lg:pr-30 lg:mt-100">
+
+                <h2 class=" text-4xl lg:text-5xl text-center absolute z-10 top-50 lg:left-120 lg:top-150 leading-15 pl-10 font-[Poppins] ">
+                    Let's start <span class="font-bold text-black">customing</span><br>your card now
+                </h2>
+                <a href="#" class="btn">
+                    <div class="flex relative">
+                        <img class="absolute bottom-50 left-40 lg:left-140 z-15 h-10" src="./assets/Icons/btn-pink-bg.svg" alt="btn pink backgroud">
+                        <span class="absolute bottom-52 left-45 lg:left-145 z-15">Get Started</span>
+                    <img class="arrow absolute bottom-53 left-68 lg:left-168 z-15" src="./assets/Icons/RightArrow.svg" alt="right arrow">
+
+                    </div>
+                </a>
+            <img src="./assets/Photos/Rectangle 6774.png" alt="Rectangle" class="img img-2 h-150 w-full lg:pr-60 lg:mt-100 absolute">
+
+         </div>
+        </section>
+
+
+    </main>
+
+    <footer class="max-width lg:flex lg:justify-around">
+        <img src="./assets/Icons/Logo.svg" alt="logo" class="logo pt-20 h-30 lg:h-28 flex pl-44 lg:pl-20">
+        <div class="links text-white lg:text-sm flex justify-center text-lg gap-5 pt-10 lg:pt-20">
+            <a href="#">Branding</a>
+            <a href="#">Contact Us</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">FAQs</a>
+        </div>
+        <div class="copyright text-white flex justify-center pt-10 lg:pt-20 lg:text-sm text-xl pb-20">
+            Made with ❤️ By @Vinay
+        </div>
+    </footer>  
+
+
+</body>
+
+
+</html>  
