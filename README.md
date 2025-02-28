@@ -3,13 +3,13 @@
 
 ### Links
 
-- Solution URL: [Github]()
-- Live Site URL: [Vercel Link](https://huddle-landing-page-three-ruby.vercel.app/)
+- Solution URL: [Github](https://github.com/vinay-parit/Credit-Card-Landing-Page)
+- Live Site URL: [Vercel Link](https://credit-card-landing-page-chi.vercel.app/)
 
 ### ScreenShot
 
-![Desktop](./design/desktop-design.jpg)
-![Mobile](./design/mobile-design.jpg)
+![Desktop](./assets/ScreenShots/desktop_view.png)
+![Mobile](./assets/ScreenShots/mobile_view.png)
 
 ### Author
 
